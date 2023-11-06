@@ -31,11 +31,14 @@
     border: 1px solid var(--line-dark-blue);
 }
 
-.attribution { 
+.attribution {
+    color: var(--cyan);
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    background-color: var(--card-dark-blue);
+    
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%);
+    color: var(--white);
 }
