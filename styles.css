@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        font-family: 'Outfit', sans-serif;
+    }
+}
+
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-dark-blue: hsl(217, 54%, 11%);
+    --card-dark-blue: hsl(216, 50%, 16%);
+    --line-dark-blue: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+.container {
+    background-color: var(--main-dark-blue);
+} 
+
+.card {
+    background-color: var(--card-dark-blue);
+    box-shadow: 0px 13px 10px 10px hsl(217, 54%, 8%);
+}
+
+.line {
+    border: 1px solid var(--line-dark-blue);
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 

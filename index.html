@@ -15,21 +15,25 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <div class="container">
-      <div class="card">
-        <img src="./images/image-equilibrium.jpg">
-        <h1>Equilibrium #3429</h1>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
-        <div>
-          <div class="column">
-            0.041 ETH
-          </div>
-          <div class="column">
-            3 days left
-          </div>
+  <main class="container flex justify-center items-center h-screen main-dark-blue max-w-full px-5">
+    <div class="card max-w-xs rounded-xl p-5 relative">
+      <img class="rounded-xl"src="./images/image-equilibrium.jpg">
+      <h1 class="text-xl my-3 text-white font-semibold">Equilibrium #3429</h1>
+      <p class="text-sm font-light text-gray-300">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="flex flex-row justify-between my-5">
+        <div class="flex flex-row gap-1 items-center">
+          <img class="w-3	h-4" src="./images/icon-ethereum.svg" alt="">
+          <p class="text-cyan-300 text-sm block">0.041 ETH</p>
         </div>
-        <div>Creation of Jules Wyvern</div>
+        <div class="flex flex-row gap-1 items-center">
+          <img class="w-4	h-4" src="./images/icon-clock.svg" alt="">
+          <p class="text-gray-300 text-sm block">3 days left</p>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="flex flex-row gap-3 justify-start items-center mt-4">
+        <img class="w-7	h-7 border border-solid	rounded-full border-white" src="./images/image-avatar.png" alt="">
+        <p class="text-sm font-light text-gray-300">Creation of <span class="text-white">Jules Wyvern</span></p>
       </div>
     </div>
   </main>
